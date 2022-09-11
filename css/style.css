@@ -8,8 +8,22 @@ h1,
    font-size: 3rem;
    font-weight: bold;
    color: rgb(83, 150, 232);
+
 }   
 h2,
 .main-title{
    font-size: 2rem;
-   font-weight: lighter;}
+   font-weight: lighter;
+}
+   
+h3,
+.main-title{
+   font-size: 1.5rem;
+   font-weight: lighter;
+   color: dimgrey;
+}
+p,
+.main-title{
+   text-align: left;
+}
+
