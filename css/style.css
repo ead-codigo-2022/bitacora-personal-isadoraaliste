@@ -6,7 +6,7 @@ body{
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    margin: 0;
 }
-h1{font-size: 3.5em;}
+h1{font-size: 3.2em;}
 h2{font-size: 2.7em;}
 h3{font-size: 2em;}
 p{font-size: 1.25em;}
@@ -30,4 +30,55 @@ button:hover{
 .container{
    max-width: 1400px;
    margin: auto;
+}
+
+header{
+   background-color: rgb(220, 218, 215);
+}
+
+header .logo{
+   margin: 0;
+   padding: 20px 30px;
+   font-weight: bold;
+   color: rgb(87,82,240);
+   font-size: 1.6em;
+}
+
+header .container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+header .nav{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   padding-bottom: 25px;
+}
+
+header a{
+   padding: 5px 12px;
+   text-decoration: none;
+   font-weight: bold;
+   color: black;
+}
+
+header a:hover{
+   color: rgb(87,82,240);
+}
+
+#hero{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   flex-direction: column;
+   height: 90vh;
+   color: whitesmoke;
+   background-image: 
+   
+   ,url(/img/atardecercasa.jpg)
+
 }
