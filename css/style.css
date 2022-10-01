@@ -32,8 +32,10 @@ button:hover{
    margin: auto;
 }
 
+.color-acento{color: rgb(87,82,240);}
+
 header{
-   background-color: rgb(220, 218, 215);
+   background-color: rgb(230, 230, 230);
 }
 
 header .logo{
@@ -77,8 +79,95 @@ header a:hover{
    flex-direction: column;
    height: 90vh;
    color: whitesmoke;
-   background-image: 
-   
-   ,url(/img/atardecercasa.jpg)
+   background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+   ) 
 
+   ,url(/img/atardecercasa.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+#hero h1{
+   color: white;
+}
+
+#introduccion{
+   background-color: whitesmoke;
+}
+#introduccion .container{
+   text-align: center;
+   padding: 200px 12px;
+
+}
+
+#trabajitos{
+   background-color: rgb(30, 30, 30) ;
+   color: whitesmoke;
+   text-align: center;
+}
+#trabajitos .container{
+   padding: 100px 10px;
+}
+#trabajitos h2{
+   margin-top: 0;
+   font-size: 4em;
+}
+#trabajitos p{
+   display: none;
+}
+#trabajitos .carta{
+   background-position: center center;
+   background-size: cover;
+   padding: 80px;
+   margin: 30px;
+   border-radius: 15px;
+}
+
+.carta:first-child{
+   background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+   ) 
+
+   ,url(/img/logo2.annymart2.jpg);
+ 
+}
+.carta:last-child{
+   background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+   ) 
+
+   ,url(/img/logo-macrame-simple.png);
+  
+}
+
+#caracteristicas .container{
+   text-align: center;
+   padding: 200px 12px;
+}
+#caracteristicas li{
+   margin: 20px 0px;
+   font-weight: bold;
+}
+
+footer{
+   background-color: rgb(230,230,230);
+}
+
+footer p{
+   margin: 0;
+   padding: 12px;
+   color: rgb(100,100,100);
+}
+footer .container{
+   height: 100px;
+   display:flex;
+   justify-content: center;
+   align-items: flex-end;
 }
