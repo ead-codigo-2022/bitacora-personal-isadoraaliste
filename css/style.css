@@ -2,6 +2,11 @@
    box-sizing: border-box;
 }
 
+html{
+   scroll-behavior: smooth;
+}
+
+
 body{
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    margin: 0;
@@ -57,11 +62,11 @@ header .nav{
    display: flex;
    flex-direction: column;
    text-align: center;
-   padding-bottom: 25px;
+   padding-bottom: 500px;
 }
 
 header a{
-   padding: 5px 12px;
+   padding: 20px 30px 50px;
    text-decoration: none;
    font-weight: bold;
    color: black;
@@ -154,6 +159,7 @@ header a:hover{
 #caracteristicas li{
    margin: 20px 0px;
    font-weight: bold;
+   list-style: none;
 }
 
 footer{
@@ -170,4 +176,58 @@ footer .container{
    display:flex;
    justify-content: center;
    align-items: flex-end;
+}
+/*estilo index 2*/
+#misfotografias{
+   background-color: rgb(111, 135, 201) ;
+   color: whitesmoke;
+   text-align: center;
+}
+#misfotografias .container{
+   padding: 100px 10px;
+}
+#misfotografias h2{
+   margin-top: 0;
+   font-size: 4em;
+}
+#misfotografias p{
+   display: none;
+}
+#misfotografias .caja{
+   background-position: center center;
+   background-size: cover;
+   padding: 100px;
+   margin: 50px;
+   border-radius: 0px;
+}
+
+.caja:first-child{
+   background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+   ) 
+
+   ,url(/img/cya/cielo.pucon.jpg);
+ 
+}
+.caja:nth-child(2){
+   background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+   ) 
+
+   ,url(/img/fya/portadafya.JPG);
+  
+}
+.caja:last-child{
+   background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+   ) 
+
+   ,url(/img/p/portadaproyectos.JPG);
+  
 }
