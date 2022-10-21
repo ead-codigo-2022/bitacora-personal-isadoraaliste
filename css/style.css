@@ -92,7 +92,7 @@ header a:hover{
       rgba(0,0,0,0.5)
    ) 
 
-   ,url(/img/atardecercasa.jpg);
+   ,url(../img/atardecercasa.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center center;
@@ -144,7 +144,7 @@ header a:hover{
       rgba(0,0,0,0.5)
    ) 
 
-   ,url(/img/logo2.annymart2.jpg);
+   ,url(../img/logo2.annymart2.jpg);
  
 }
 .carta:last-child{
@@ -154,7 +154,7 @@ header a:hover{
       rgba(0,0,0,0.5)
    ) 
 
-   ,url(/img/logo-macrame-simple.png);
+   ,url(../img/logo-macrame-simple.png);
   
 }
 
@@ -214,7 +214,7 @@ footer .container{
       rgba(0,0,0,0.5)
    ) 
 
-   ,url(/img/cya/cielo.pucon.jpg);
+   ,url(../img/cya/cielo.pucon.jpg);
  
 }
 .caja:nth-child(2){
@@ -224,7 +224,7 @@ footer .container{
       rgba(0,0,0,0.5)
    ) 
 
-   ,url(/img/f/portadafya.JPG);
+   ,url(../img/f/portadafya.JPG);
   
 }
 .caja:last-child{
@@ -234,7 +234,7 @@ footer .container{
       rgba(0,0,0,0.5)
    ) 
 
-   ,url(/img/p/portadaproyectos.JPG);
+   ,url(../img/p/portadaproyectos.JPG);
   
 }
 
