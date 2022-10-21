@@ -204,7 +204,7 @@ footer .container{
    background-size: cover;
    padding: 100px;
    margin: 50px;
-   border-radius: 0px;
+   border-radius: 10px;
 }
 
 .caja:first-child{
