@@ -124,7 +124,7 @@ header a:hover{
    font-size: 4em;
 }
 #trabajitos p{
-   display: flex;
+   display: none;
 }
 #trabajitos .carta{
    background-position: center center;
