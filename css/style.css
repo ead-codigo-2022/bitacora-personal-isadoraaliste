@@ -117,19 +117,20 @@ header a:hover{
 }
 #trabajitos .container{
    padding: 100px 10px;
+   
 }
 #trabajitos h2{
    margin-top: 0;
    font-size: 4em;
 }
 #trabajitos p{
-   display: none;
+   display: flex;
 }
 #trabajitos .carta{
    background-position: center center;
    background-size: cover;
-   padding: 80px;
-   margin: 30px;
+   padding: 100px;
+   margin: 60px;
    border-radius: 15px;
 }
 
