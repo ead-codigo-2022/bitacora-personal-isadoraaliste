@@ -126,7 +126,7 @@ header a:hover{
 }
 
 #trabajitos p{
-   display: none;
+   display:flex ;
 }
 
 #trabajitos .carta{
