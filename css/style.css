@@ -183,6 +183,72 @@ footer .container{
    justify-content: center;
    align-items: flex-end;
 }
+/*estilo css index escritorio*/
+
+@media (min-width: 750px){
+
+   header{
+      position: fixed;
+      width: 100%;
+   }
+
+   header .container{
+      flex-direction: row;
+      justify-content: space-between;
+   }
+   header nav{
+      flex-direction: row;
+      padding-bottom: 0;
+      padding-right: 20px;
+   }
+
+   #hero h1{
+      font-size: 5em;
+   }
+
+   #trabajitos .emprendimientos{
+      display: flex;
+      justify-content: center;
+   }
+
+   #trabajitos p{
+      display: block;
+      margin-bottom: 30px;
+   }
+
+   #trabajitos h3{
+      margin-top: 0;
+   }
+
+   #trabajitos .carta{
+      padding: 50px;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+   }
+
+   #caracteristicas{
+      background-image: url(../img/fotobiografia.jpg);
+      background-repeat: no-repeat;
+      background-size: 400px 300px;
+      background-position: calc(100vw - 500px) 120px;
+   }
+
+   #caracteristicas .container{
+      text-align: initial;
+   }
+   #caracteristicas ul{
+      margin-left: 100px;
+   }
+
+
+
+}
+
+@media ( min-width: 1000px) {
+   #caracteristicas{
+      background-position-x: calc(100vw - 800px);
+   }
+}
+
 /*estilo index 2*/
 #misfotografias{
    background-color: rgb(111, 135, 201) ;
