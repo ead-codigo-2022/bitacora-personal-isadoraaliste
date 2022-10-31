@@ -454,3 +454,9 @@ main .sobre-nosotros{
 #hero4 h1{
    color: white;
 }
+
+/*estilo lista de imagenes*/
+
+.lista-imagenes{
+   margin-bottom: 20px;
+}
